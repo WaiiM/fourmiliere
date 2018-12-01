@@ -7,7 +7,7 @@ public class Fourmiliere {
 
   /**
    * Liste des fourmis qui seront presente dans la formiliere.
-   * Hello World
+   * Hello World 2
    */
   private List<Fourmi> listFourmi;
 
