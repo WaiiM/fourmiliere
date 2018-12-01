@@ -8,13 +8,13 @@ public class Fourmiliere {
   /**
    * Liste des fourmis qui seront presente dans la formiliere.
    */
-  private List<Fourmi> fourmis;
+  private List<Fourmi> listFourmi;
 
   /**
    * Constructeur de la fourmiliere.
    */
   public Fourmiliere() {
-    fourmis = new ArrayList<>();
+    this.listFourmi = new ArrayList<>();
   }
 
   /**
@@ -24,6 +24,6 @@ public class Fourmiliere {
    *          la fourmi à ajouter
    */
   public void ajouterFourmi(Fourmi fourmi) {
-    fourmis.add(fourmi);
+    this.listFourmi.add(fourmi);
   }
 }
